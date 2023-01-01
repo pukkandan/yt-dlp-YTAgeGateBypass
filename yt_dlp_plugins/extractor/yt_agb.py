@@ -62,7 +62,7 @@ class Youtube_AgeGateBypassIE(YoutubeIE, plugin_name='AGB'):
             if pr:
                 player_responses.append(pr)
                 streaming_data = get_first(player_responses, 'streamingData') or {}
-                if VIDEO_PROXY:
+                if not self._configuration_arg('no_video_proxy'):
                     streaming_data['_use_proxy'] = True
         return ret
 
