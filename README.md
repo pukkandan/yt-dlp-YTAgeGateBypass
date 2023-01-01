@@ -15,7 +15,7 @@ Requires yt-dlp `2023.01.01` or above. For older versions, use [this gist](https
 
 You can install this package with pip:
 ```
-python3 -m pip install -U https://github.com/yt-dlp/yt-dlp-sample-plugins/archive/master.zip
+python3 -m pip install -U https://github.com/pukkandan/yt-dlp-YTAgeGateBypass/archive/master.zip
 ```
 
 See [yt-dlp installing plugins](https://github.com/yt-dlp/yt-dlp#installing-plugins) for the many other ways this plugin package can be installed.
