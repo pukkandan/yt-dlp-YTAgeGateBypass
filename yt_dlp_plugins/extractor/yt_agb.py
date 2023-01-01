@@ -75,3 +75,6 @@ class Youtube_AgeGateBypassIE(YoutubeIE, plugin_name='AGB'):
             yield f
         if has_gcr:
             self.to_screen('Video formats have GCR. Using proxy for download')
+
+
+__all__ = []
