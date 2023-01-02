@@ -36,7 +36,7 @@ class Youtube_AgeGateBypassIE(YoutubeIE, plugin_name='AGB'):
             'channel': 'Liquid Sky',
             'age_limit': 18,
         }
-    }] + YoutubeIE._TESTS
+    }]
 
     def _download_player_responses(self, url, smuggled_data, video_id, *args, **kwargs):
         AGB_CLIENT = 'web'
